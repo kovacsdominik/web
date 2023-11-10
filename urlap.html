@@ -6,15 +6,15 @@
     <title>Űrlap Domink</title>
 </head>
 <body>
-    <h1>Dominik cipő boltja</h1>
+    <h1>Dominik Ruha boltja</h1>
     <form action="">
         <fieldset>
             <legend>Regisztráció</legend>
-                <input type="email" name="log in" id="f1">
-                <label for="f1">Email</label>
+                <input type="email" name="log in" id="f1" placeholder="Email">
+                
                 <br>
-                <input type="password" name="log in" id="f2">
-                <label for="f2">Jelszó</label>
+                <input type="password" name="log in" id="f2" placeholder="Jelszó">
+                
                 <br>
                 <legend>Add meg a nemed</legend>
                 <input type="radio" name="gender" id="f3">
@@ -23,33 +23,116 @@
                 <input type="radio" name="gender" id="f4">
                 <label for="f4">lány</label>
                 <br>
-                <input type="number" name="Telefonszám" id="f5">
-                <label for="f5">Telefonszám</label>
-                <br>
                 <input type="date" name="Születési idő" id="f6">
                 <label for="f6">Születési idő</label>
-                <input type="submit" name="Beküldés" id="f7">
+                <input type="button" value="Regisztráció" id="f7">
+                <input type='reset' value="Mégse" id="f8">
         </fieldset>
 
 
         <fieldset>
             <legend>Cipők</legend>
             <br>
-            <input type="radio" name="Nike" id="c1">
-            <label for="c1">Jordan</label>
+            <select>
+                <option value="">Air force</option>
+                <option value="">Dunk</option>
+                <option value="">Adidas</option>
+                <option value="">Jordan 1</option>
+                <option value="">Jordan 4</option>
+                <option value="">Foam runner</option>
+            </select>
 
-            <input type="radio" name="Nike" id="c2">
-            <label for="c2">Air force</label>
-
-            <input type="radio" name="Nike" id="c3">
-            <label for="c3">Dunk</label>
-
-            <input type="radio" name="Nike" id="c4">
-            <label for="c4">Off white</label>
-
-            <input type="radio" name="Nike" id="c5">
-            <label for="c5ss">Adidas</label>
+            <input type="radio" name="Méretek" id="m1">
+            <label for="m1">39</label>
+            <input type="radio" name="Méretek" id="m2">
+            <label for="m2">40</label>
+            <input type="radio" name="Méretek" id="m3">
+            <label for="m3">41</label>
+            <input type="radio" name="Méretek" id="m4">
+            <label for="m4">42</label>
+            <input type="radio" name="Méretek" id="m5">
+            <label for="m5">43</label>
+            <label for="m5">Méretek</label>
              </fieldset>
+
+             <fieldset>
+                <legend>Pulcsik</legend>
+                <input type="checkbox" name="pulcsi" id="p1">
+                <label for="p1">Nike</label>
+                <br>
+                <input type="checkbox" name="pulcsi" id="p2">
+                <label for="p2">Adidas</label>
+                <br>
+                <input type="checkbox" name="pulcsi" id="p3">
+                <label for="p3">Zara</label>
+                <br>
+                <input type="checkbox" name="pulcsi" id="p4">
+                <label for="p4">Karl Lagerfeld</label>
+                <br>
+                <input type="checkbox" name="pulcsi" id="p5">
+                <label for="p5">Gucci</label>
+                <br>
+                <br>
+                <label for="m10">Méretek EU</label>
+                <input type="radio" name="Méretek" id="m6">
+            <label for="m6">XS</label>
+            <input type="radio" name="Méretek" id="m7">
+            <label for="m7">S</label>
+            <input type="radio" name="Méretek" id="m8">
+            <label for="m8">M</label>
+            <input type="radio" name="Méretek" id="m9">
+            <label for="m9">L</label>
+            <input type="radio" name="Méretek" id="m10">
+            <label for="m10">XL</label>
+            <br>
+            <input type="color" id="co1">
+            <label for="co1">Szín</label>
+             </fieldset>
+
+             <fieldset>
+                <legend>Nadrágok</legend>
+                <input type="radio" name="naci" id="n1">
+                <label for="n1">Nike</label>
+                <br>
+                <input type="radio" name="naci" id="n2">
+                <label for="n2">Adidas</label>
+                <br>
+                <input type="radio" name="naci" id="n3">
+                <label for="n3">Dior</label>
+                <br>
+                <input type="radio" name="naci" id="n4">
+                <label for="n4">Jack&Jones</label>
+                <br>
+                <input type="radio" name="naci" id="n5">
+                <label for="n5">Cargo</label>
+                <br>
+                <input type="radio" name="naci" id="n6">
+                <label for="n6">Farmer</label>
+                <br>
+                <br>
+                <input type="button" value="Kosárba">
+            </fieldset>
+
+            <fieldset>
+                <legend>Kosár</legend>
+             Termékek   <input type="number" name="darab" id="d1" value="2" min="0" max="99" style="width: 30px;">
+             <br>
+             <br>Kiszállitási adatok
+             <br>
+                <input type="text" name="kiszállitás" id="k1" placeholder="Város">
+                <input type="text" name="kiszállitás" id="k2" placeholder="Utca,házszám">
+                <input type="text" name="kiszállitás" id="k3" placeholder="Irányítószám">
+                <input type="text" name="kiszállitás" id="k4" placeholder="Név">
+                <input type="number" name="Telefonszám" id="f5" placeholder="Telefonszám" min="0" max="99" style="width: 110px;">
+
+            </fieldset>
+            <br>
+            <input type="checkbox" name="megrendelés" id="mg1">
+            <label for="mg1">Felhasznélói feltételek elfogadása</label>
+            <br>
+            <br>
+            <input type="button" value="Megrendelés">
+            <input type="button" value="Visszavonás">
 
     </form>
     
