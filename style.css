@@ -1,6 +1,7 @@
 body{
     background-color: lightblue;
     color: blue;
+    text-decoration: none;
 }
 button{
     padding: 15px 20px;
