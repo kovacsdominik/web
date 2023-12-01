@@ -1,13 +1,10 @@
 body{
     background-color: lightblue;
-    color: gray;
+    color: blue;
 }
 button{
     padding: 15px 20px;
     color: lightblue;
     text-align: left;
     text-decoration: none;
-}
-nav a:host{
-    background-color: black;
 }
