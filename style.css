@@ -1,56 +1,68 @@
 body{
-    background-color: black;
-    color:rgb(223, 180, 42);
-    text-decoration: none;
-    font-family: Unispace;
-    border-color: yellow;
-    
+  background-color: black;
+  color:rgb(223, 180, 42);
+  text-decoration: none;
+  font-family: Unispace;
+  border-color: yellow;
+  
 }
 button{
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    background-color: yellow;
-    border-radius: 8px;
-    transition-duration: 0.5s;
-    font-family: Algerian;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: yellow;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+  font-family: Algerian;
 }
 .button:hover{
-    background-color: black;
-    box-shadow: 0 12px 16px yellow, 0 17px 50px 0 yellow;
+  background-color: black;
+  box-shadow: 0 12px 16px yellow, 0 17px 50px 0 yellow;
 }
 nav{
-    text-decoration: none;
+  text-decoration: none;
 }
 a:link {
-    color: yellowgreen;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: yellowgreen;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: yellowgreen;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: yellowgreen;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  .bolt1{
-    text-align: center;
-  }
-  h1{
-    font-family: Algerian;
-  }
-  .kép1{
-    border-color: yellow;
-  }
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+.bolt1{
+  text-align: center;
+}
+h1{
+  font-family: Algerian;
+}
+.kép1{
+  border-color: yellow;
+}
+#f7{
+border-radius: 3.5px;
+}
+#f8{
+border-radius: 3.5px;
+}
+.v1{
+border-radius: 3.5px;
+}
+.v2{
+border-radius: 3.5px;
+}
+.v3{
+border-radius: 3.5px;
+}
