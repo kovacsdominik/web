@@ -1,6 +1,6 @@
 body{
     background-color: lightblue;
-    color: blue;
+    color: #00ff84;
     text-decoration: none;
 }
 button{
@@ -8,4 +8,5 @@ button{
     color: lightblue;
     text-align: left;
     text-decoration: none;
+    background-color: #00ff84;
 }
