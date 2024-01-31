@@ -79,10 +79,7 @@ footer{
 a{
   padding: 5px;
 }
-#evszakok{
- border: 5px rgb(223, 180, 42) solid ;
-  width: 400px;
-}
 #kepek{
   width: 400px;
+  border: 5px rgb(223, 180, 42) solid;
 }
