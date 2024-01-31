@@ -79,9 +79,9 @@ footer{
 a{
   padding: 5px;
 }
-#kepek{
+#evszakok{
   width: 250px;
   border: 5px rgb(223, 180, 42) solid;
-  text-align: center;
-  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
 }
