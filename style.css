@@ -82,4 +82,8 @@ a{
 #kepek{
   width: 150px;
   border: 5px rgb(223, 180, 42) solid;
+  text-align: center;
+}
+#kepek:hover{
+  box-sizing: inherit;
 }
