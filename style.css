@@ -8,8 +8,8 @@ button{
  color: black;
  font-family: Unispace;
  font-size: larger;
- width: 290px;
- height: 100px;
+ width: 280px;
+ height: 95px;
  border-radius: 8px;
  cursor: pointer;
 }
@@ -20,53 +20,63 @@ nav{
   color: white;
   height: 270px;
   border-radius: 8px;
+  cursor: pointer;
 }
 #logó{
   width: 200px;
   border-radius: 8px;
+}
+#kosár{
+  width: 50px;
+  padding: 10px;
+  border-radius: 20px;
 }
 a:link, a:hover, a:visited, a:active{
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
-.bolt1{
-  text-align: center;
+#minicipők{
+  width: 300px;
+  
+}
+#miniszöveg{
+  font-size: small;
+}
+#minibutton{
+  width: fit-content;
+  height: 50px;
+}
+#minikosár{
+  border-radius: 20px;
+  width: 40px;
+  
+}
+#j1k{
+  border: black solid 5px;
+  width: fit-content;
+  float: left;
+  margin: 0 0 0 20px;
 }
 h1{
   font-family: Unispace;
+
 }
 .kép1{
-  border-color: black;
+  border: 5px black solid;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
 }
-#f7{
-border-radius: 3.5px;
-}
-#f8{
-border-radius: 3.5px;
-}
-.v1{
-border-radius: 3.5px;
-} 
-.v2{
-border-radius: 3.5px;
-}
-.v3{
-border-radius: 3.5px;
-}
+
 .orarend{
   background-color: white;
   color: black;
 }
-footer{
-    text-align: center;
-    padding: 3px;
-    background-color: black;
-    color: white;
-}
 a{
   padding: 5px;
 }
+
 .kepekta{
   width: 400px;
   border: 5px pink solid;
@@ -98,7 +108,24 @@ a{
 .kepekta:hover{
   background-color: palevioletred;
   color: white;
+  box-shadow: 0 12px 16px palevioletred, 0 17px 50px 0 palevioletred;
+}
+.kepekny:hover{
+  box-shadow: 0 12px 16px yellow, 0 17px 50px 0 yellow;
+}
+.kepekö:hover{
+  box-shadow: 0 12px 16px brown, 0 17px 50px 0 brown;
+}
+.kepekté:hover{
+  box-shadow: 0 12px 16px cyan, 0 17px 50px 0 cyan;
 }
 #évszakoknév{
   text-align: center;
 }
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
