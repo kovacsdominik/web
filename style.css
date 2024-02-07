@@ -134,8 +134,19 @@ a{
 .kepekté:hover{
   box-shadow: 0 12px 16px cyan, 0 17px 50px 0 cyan;
 }
-#évszakoknév{
+#évszakszöveg{
   text-align: center;
+  font-size: larger;
+}
+#divé{
+  float: left;
+  margin: 0 0 0 30px;
+}
+p{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 footer{
   text-align: center;
@@ -143,4 +154,5 @@ footer{
   background-color: black;
   color: white;
 }
+
 
