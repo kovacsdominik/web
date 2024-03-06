@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedvenc szín</title>
+    <style>
+        fieldset{
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>Színválasztó JavaScript</h1>
+    <form action="javascript:void(0)">
+        <fieldset>
+            <label for="szin">Válaszd ki a kedvenc színed!</label>
+            <br>
+            <input type="color" name="szinv" id="szin" value="#1927E6">
+            <input type="button" value="KATT" name="szinv" id="katt" onclick="szinezd()">
+        </fieldset>
+        <fieldset>
+             <label for="hatter">Válaszd ki a kedvenc színed!</label>
+             <br>
+            <input type="color" name="szinv" id="hatter" value="#1927E6">
+            <input type="button" value="KATT" name="szinv" id="katt" onclick="szinez()">
+        </fieldset>
+    </form>
+    <script>
+        function szinezd() {
+            document.body.style.color = szin.value;
+        }
+    </script>
+    <script>
+        function szinez() {
+            document.body.style.backgroundColor = hatter.value;
+        }
+    </script>
+</body>
+</html>
