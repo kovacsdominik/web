@@ -3,7 +3,7 @@
     transition: 0.3s;
     object-fit: cover;
     display: block;
-    text-align: center;
+    margin: auto;
     border: solid 3px black;
     border-radius: 8px;
 }
@@ -12,7 +12,7 @@
     transition: 0.3s;
     object-fit: cover;
     display: block;
-    text-align: center;
+    margin: auto;
     border: solid 3px black;
     border-radius: 8px;
 }
