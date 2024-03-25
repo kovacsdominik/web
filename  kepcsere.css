@@ -1,0 +1,30 @@
+#image-1{
+    width: 500px;
+    height: 500px;
+    transition: 0.3s;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image-2{
+    width: 500px;
+    height: 500px;
+    transition: 0.3s;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+image-1:hover{
+    cursor: pointer;
+}
+image-1:active{
+    transform: scale(0.8);
+}
+image-2:hover{
+    cursor: pointer;
+}
+image-2:active{
+    transform: scale(0.8);
+}
