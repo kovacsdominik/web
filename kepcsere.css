@@ -6,6 +6,7 @@
     margin: auto;
     border: solid 3px black;
     border-radius: 8px;
+    cursor: pointer;
 }
 #image-2{
     width: 800px;
@@ -15,6 +16,7 @@
     margin: auto;
     border: solid 3px black;
     border-radius: 8px;
+    cursor: pointer;
 }
 image-1:hover{
     cursor: pointer;
