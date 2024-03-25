@@ -19,7 +19,6 @@ nav{
   font-size: larger;
   color: white;
   height: 270px;
-  border-radius: 8px;
   cursor: pointer;
 }
 #logó{
@@ -40,8 +39,7 @@ a:link, a:hover, a:visited, a:active{
     text-decoration: none;
 }
 #minicipők{
-  width: 300px;
-  
+  width: 300px; 
 }
 #miniszöveg{
   font-size: small;
@@ -59,8 +57,8 @@ a:link, a:hover, a:visited, a:active{
   color: black;
   font-family: Unispace;
   font-size: larger;
-  width: 280px;
-  height: 95px;
+  width: 245px;
+  height: 75px;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -75,7 +73,6 @@ a:link, a:hover, a:visited, a:active{
 }
 h1{
   font-family: Unispace;
-
 }
 .kép1{
   border: 5px black solid;
@@ -83,7 +80,6 @@ h1{
   display: block;
   margin: auto;
 }
-
 .orarend{
   background-color: white;
   color: black;
@@ -91,7 +87,6 @@ h1{
 a{
   padding: 5px;
 }
-
 .kepekta{
   width: 400px;
   border: 5px pink solid;
@@ -121,8 +116,6 @@ a{
   margin: auto;
 }
 .kepekta:hover{
-  background-color: palevioletred;
-  color: white;
   box-shadow: 0 12px 16px palevioletred, 0 17px 50px 0 palevioletred;
 }
 .kepekny:hover{
@@ -142,15 +135,15 @@ a{
   float: left;
   margin: 0 0 0 30px;
 }
-p{
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 footer{
   text-align: center;
   padding: 3px;
   background-color: black;
   color: white;
+}
+p{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
