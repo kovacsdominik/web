@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz tétel ismétlés</title>
+    <style>
+        .line {
+            margin: 5px 0;
+            font-size: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    const container = document.createElement('div');
+    for (let i = 1; i <= 200; i++) {
+        const line = document.createElement('div');
+        line.className = 'line';
+        line.style.color = getRandomColor();
+        line.textContent = `${i}. Pitagorasz tétel: a² + b² = c²`;
+        container.appendChild(line);
+    }
+
+    document.body.appendChild(container);
+</script>
+
+</body>
+</html>
